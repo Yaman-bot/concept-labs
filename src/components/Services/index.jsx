@@ -1,28 +1,23 @@
 import React from 'react'
 import Icon1 from '../../images/solidworks.jpg'
 import Icon2 from '../../images/catia.jpg'
-import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServiceElements'
+import Video1 from '../../videos/Final assembly_Trim.mp4'
+import Video2 from '../../videos/Assembly3.mp4'
+import { CourseContainer, VideoBg, CourseH1, Subtitle } from './ServiceElements'
 
 const Services = () => {
-  return (
-    <>
-      <ServicesContainer id='services'>
-        <ServicesH1>Our courses</ServicesH1>
-        <ServicesWrapper>
-          <ServicesCard>
-            <ServicesIcon src={Icon1} />
-            <ServicesH2>Solidworks</ServicesH2>
-            <ServicesP>Learn Solidworks under expertise with practical applications.</ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon src={Icon2} />
-            <ServicesH2>Catia</ServicesH2>
-            <ServicesP>Learn Catia under expertise with practical applications.</ServicesP>
-          </ServicesCard>
-        </ServicesWrapper>
-      </ServicesContainer>
-    </>
-  )
+    return (
+        <>
+            <CourseContainer id="services">
+                <CourseH1>SolidWorks</CourseH1>
+                <VideoBg autoPlay loop muted src={Video1} type='video/mp4' />
+            </CourseContainer>
+            <CourseContainer id="services">
+                <CourseH1>Catia</CourseH1>
+                <VideoBg autoPlay loop muted src={Video2} type='video/mp4' />
+            </CourseContainer>
+        </>
+    )
 }
 
 export default Services

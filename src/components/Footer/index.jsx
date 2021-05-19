@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, GrMail } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -22,16 +22,16 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>+91 78370 09411 </FooterLink>
-              <FooterLink to='/'>+91 80540 88691</FooterLink>
+              <FooterLink to='/'>+91 77079 41187</FooterLink>
+              <FooterLink to='/'>operations@conceptlab.co.in </FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
 
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
-              <FooterLink to='/'>Facebook</FooterLink>
-              <FooterLink to='/'>Twitter</FooterLink>
+              <FooterLink to='https://instagram.com/_conceptlabs?utm_medium=copy_link'>Instagram</FooterLink>
+              <FooterLink to='/'>Linkedin</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
         </FooterLinkContainer>
@@ -45,13 +45,13 @@ const Footer = () => {
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='//www.instagram.com/leonardtcomdt/' target='_blank' arial-label='Instagram'>
+              <SocialIconLink href='https://instagram.com/_conceptlabs?utm_medium=copy_link' target='_blank' arial-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink href='/' target='_blank' arial-label='Twitter'>
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin'>
+              <SocialIconLink href='//www.linkedin.com' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
