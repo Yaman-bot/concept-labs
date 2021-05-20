@@ -57,6 +57,7 @@ export const Heading1 = styled.h1`
   }
 `
 export const Heading2 = styled.h1`
+  margin-top:160px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600px;

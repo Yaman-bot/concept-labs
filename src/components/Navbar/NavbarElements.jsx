@@ -55,7 +55,7 @@ export const MobileIcon = styled.div`
 `
 export const NavMenu = styled.ul`
   display:flex;
-  justify-content: right;
+  justify-content: flex-end;
   list-style: none;
   text-align: center;
   margin-right: -22px;
@@ -70,6 +70,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
   color: #fff;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;

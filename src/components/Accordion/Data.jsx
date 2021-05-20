@@ -27,8 +27,14 @@ export const Data1 = [
         answer: "Surface design"
     }, {
         answer: "Routing: piping and tubing"
+    },
+    {
+        answer: "SW electrical"
     }, {
-        answer: "Solidworks Motion,Animation,Flow Simulation "
+        answer: "Solidworks Motion,Animation"
+    },
+    {
+        answer: "Simulation,Flow Simulation"
     }, {
         answer: "CSWA Exam Prep"
     }

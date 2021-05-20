@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     '20 day online live workshop with certified professionals \nRegular optional quizzes,lecture notes  and study material to solidify your concepts and understanding.    \n Lifetime access to CAD models and softwares.',
   buttonLabel: 'Register Now',
-  href: '',
+  href: 'https://rzp.io/l/conceptlab',
   imgStart: false,
   img: require('../../images/svg-1.svg').default,
   alt: 'design',
@@ -44,7 +44,7 @@ export const homeObjThree = {
   headline: 'Registering for our courses is extremely easy',
   description: 'Click the button below to register for any course',
   buttonLabel: 'Register',
-  href: '',
+  href: 'https://rzp.io/l/conceptlab',
   imgStart: false,
   img: require('../../images/svg-3.svg').default,
   alt: 'payment',

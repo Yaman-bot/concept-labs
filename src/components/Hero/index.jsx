@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroH1>Learn CAD Modelling Softwares Now</HeroH1>
         <HeroP>At only ₹499/- get access to our live courses</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button href='https://rzp.io/l/conceptlab' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Register  {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
