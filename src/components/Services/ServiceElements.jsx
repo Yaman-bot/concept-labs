@@ -106,8 +106,7 @@ export const SubHeading = styled.h1`
 export const CSWALink = styled(Link)`
   color: #fff;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 18px;
 
   &:hover {
     color: #01bf71;
