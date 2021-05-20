@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -12,7 +11,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 1120px;
+  height: 1220px;
   width: 100%auto;
   max-width: 1100px;
   margin-right: auto;
@@ -79,7 +78,7 @@ export const VideoBg = styled.video`
   width: 555px;
   height: 100%;
   grid-area: col2;
-  align-self:center;
+  align-self:start;
   justify-self:center;
   padding-left:40px;
 
@@ -103,13 +102,14 @@ export const SubHeading = styled.h1`
     font-size: 32px;
   }
 `
-export const CSWALink = styled(Link)`
+export const CSWALink = styled.a`
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 18px;
-
+  color: purple;
+  margin-left:4px;
+  margin-right:4px;
   &:hover {
-    color: #01bf71;
     transition: 0.3s ease-in-out;
   }
 `

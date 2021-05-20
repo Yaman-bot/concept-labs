@@ -16,7 +16,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>About us</FooterLinkTitle>
               <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Carrers</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
               <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -27,21 +27,21 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinkWrapper>
 
-          <FooterLinkWrapper>
+          {/* <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='https://instagram.com/_conceptlabs?utm_medium=copy_link'>Instagram</FooterLink>
-              <FooterLink to='/'>Linkedin</FooterLink>
+              <FooterLink href='https://instagram.com/_conceptlabs?utm_medium=copy_link'>Instagram</FooterLink>
+              <FooterLink href='/'>Linkedin</FooterLink>
             </FooterLinkItems>
-          </FooterLinkWrapper>
+          </FooterLinkWrapper> */}
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Concept Labs
+              Concept Lab
             </SocialLogo>
-            <WebsiteRights>Concept Labs © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-            <SocialIcons>
+            <WebsiteRights>Concept Labs © 2019 All rights reserved.</WebsiteRights>
+            {/* <SocialIcons>
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
@@ -54,7 +54,7 @@ const Footer = () => {
               <SocialIconLink href='//www.linkedin.com' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
-            </SocialIcons>
+            </SocialIcons> */}
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

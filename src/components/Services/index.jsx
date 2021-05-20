@@ -19,12 +19,19 @@ const Services = () => {
                                     <li>Certificate to each student</li>
                                     <li>
                                         Top 5 students to be awarded with
-                                        <CSWALink to=''>
-                                            Certified Solidworks Associate Exam
-                                        </CSWALink>
+                                        Certified Solidworks Associate Exam
                                         attempt that otherwise worth Rs.9427/- each.
                                     </li>
                                     <li>Students clearing CSWA, will get internship opportunity with fixed stipend</li>
+                                    <li>
+                                        Get access to complete SW package including SW visualize,SW composer,SW electrical,
+                                        E-drawings at minimal additional cost.
+                                    </li>
+                                    <li>
+                                        <CSWALink href="https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design" target="_blank">
+                                            Learn More
+                                        </CSWALink>
+                                    </li>
                                 </ul>
                             </Subtitle>
                             <AccContainer>
@@ -50,7 +57,7 @@ const Services = () => {
                                     <li>Certificate to each student</li>
                                     <li>Industrial Projects Portfolio assistance</li>
                                     <li>Participation in Catia Designing Contest</li>
-                                    <li>Top 5 entries to be awarded with free license of simulation softwares like ANSYS that otherwise worth more than ₹30,000.</li>
+                                    <li>Interested Students to be awarded with free license of simulation softwares like ANSYS that otherwise worth more than ₹30,000.</li>
                                 </ul>
                             </Subtitle>
                             <AccContainer>

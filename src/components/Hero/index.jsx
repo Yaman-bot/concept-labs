@@ -16,8 +16,8 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Learn Cad Modelling Softwares Now</HeroH1>
-        <HeroP>At only 499/- get access to our live courses</HeroP>
+        <HeroH1>Learn CAD Modelling Softwares Now</HeroH1>
+        <HeroP>At only ₹499/- get access to our live courses</HeroP>
         <HeroBtnWrapper>
           <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Register  {hover ? <ArrowForward /> : <ArrowRight />}

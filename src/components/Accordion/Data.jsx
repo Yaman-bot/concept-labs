@@ -65,11 +65,11 @@ export const Data2 = [
     {
         answer: "Real time rendering"
     }, {
-        answer: "Analysis and Simulation"
+        answer: "Analysis & Advanced  Meshing Tools"
     }, {
-        answer: "Advanced Meshing Tools"
+        answer: "Designing Contest Preparation"
     }, {
-        answer: "Generative Structural Analysis"
+        answer: "Projects Portfolio Guidance"
     }
 ]
 
