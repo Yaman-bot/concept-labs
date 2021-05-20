@@ -5,29 +5,32 @@ import { IconContext } from 'react-icons'
 import { FiPlus, FiMinus } from 'react-icons/fi'
 
 const AccordionSection = styled.div`
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    display:block;
     position:relative;
     height:100vh;
-    background:#fff;
 `
 const Container = styled.div`
-    position:absolute;
     background:#272727;
     top:30%;
     box-shadow:2px 10px 35px 1px rgba(153,153,153,0.3);
-
-
+    width:100%;
     h1{
         padding:2rem;
-        font-size:1rem;
+        font-size:1.2rem;
     }
 
     span{
         margin-right:1.5rem;
     }
+`
+const UpperWrap = styled.div`
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    text-align:center;
+    cursor:pointer;
 `
 const Wrap = styled.div`
     color:#fff;
@@ -42,7 +45,7 @@ const DropDown = styled.div`
    background:#1c1c1c;
    color:#00ffb9;
    width: 100%;
-   height:50px;
+   height:40px;
    display:flex;
    flex-direction: column;
    justify-content:center;
@@ -65,8 +68,10 @@ const Accordion = (props) => {
                     <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
                         <AccordionSection>
                             <Container onClick={() => toggle()} >
-                                <h1>Course Contents</h1>
-                                <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                <UpperWrap>
+                                    <h1>Course Contents</h1>
+                                    <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                </UpperWrap>
                                 {Data1.map((item, index) => {
                                     return (
                                         <>
@@ -87,8 +92,10 @@ const Accordion = (props) => {
                     <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
                         <AccordionSection>
                             <Container onClick={() => toggle()} >
-                                <h1>Course Contents</h1>
-                                <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                <UpperWrap>
+                                    <h1>Course Contents</h1>
+                                    <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                </UpperWrap>
                                 {Data2.map((item, index) => {
                                     return (
                                         <>
