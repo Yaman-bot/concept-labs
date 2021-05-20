@@ -11,11 +11,12 @@ const Services = () => {
         <>
             <CourseContainer id="services">
                 <CourseH1>SolidWorks</CourseH1>
-                <Accordion />
+                <Accordion first={true} />
                 <VideoBg autoPlay loop muted src={Video1} type='video/mp4' />
             </CourseContainer>
             <CourseContainer id="services">
                 <CourseH1>Catia</CourseH1>
+                <Accordion first={false} />
                 <VideoBg autoPlay loop muted src={Video2} type='video/mp4' />
             </CourseContainer>
         </>

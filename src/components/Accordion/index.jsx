@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Data } from "./Data"
+import { Data1, Data2 } from "./Data"
 import { IconContext } from 'react-icons'
 import { FiPlus, FiMinus } from 'react-icons/fi'
 
@@ -51,7 +51,7 @@ const DropDown = styled.div`
    border-top:1px solid #00ffb9;
 `
 
-const Accordion = () => {
+const Accordion = (props) => {
     const [clicked, setClicked] = useState(false);
 
     const toggle = () => {
@@ -59,28 +59,56 @@ const Accordion = () => {
     }
 
     return (
-        <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
-            <AccordionSection>
-                <Container onClick={() => toggle()} >
-                    <h1>Course Contents</h1>
-                    <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
-                    {Data.map((item, index) => {
-                        return (
-                            <>
-                                <Wrap key={index}>
-                                    {clicked ? (
-                                        <DropDown>
-                                            <p>{item.answer}</p>
-                                        </DropDown>
-                                    ) : null}
-                                </Wrap>
-                            </>
-                        )
-                    })}
-                </Container>
-            </AccordionSection>
-        </IconContext.Provider>
+        <>
+            { props.first === true ?
+                (
+                    <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
+                        <AccordionSection>
+                            <Container onClick={() => toggle()} >
+                                <h1>Course Contents</h1>
+                                <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                {Data1.map((item, index) => {
+                                    return (
+                                        <>
+                                            <Wrap key={index}>
+                                                {clicked ? (
+                                                    <DropDown>
+                                                        <p>{item.answer}</p>
+                                                    </DropDown>
+                                                ) : null}
+                                            </Wrap>
+                                        </>
+                                    )
+                                })}
+                            </Container>
+                        </AccordionSection>
+                    </IconContext.Provider>
+                ) : (
+                    <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
+                        <AccordionSection>
+                            <Container onClick={() => toggle()} >
+                                <h1>Course Contents</h1>
+                                <span>{clicked ? <FiMinus /> : <FiPlus />}</span>
+                                {Data2.map((item, index) => {
+                                    return (
+                                        <>
+                                            <Wrap key={index}>
+                                                {clicked ? (
+                                                    <DropDown>
+                                                        <p>{item.answer}</p>
+                                                    </DropDown>
+                                                ) : null}
+                                            </Wrap>
+                                        </>
+                                    )
+                                })}
+                            </Container>
+                        </AccordionSection>
+                    </IconContext.Provider>
+                )}
+        </>
     )
+
 }
 
 export default Accordion;
