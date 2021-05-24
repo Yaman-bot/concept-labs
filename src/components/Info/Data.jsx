@@ -55,7 +55,7 @@ const text = `All students who will be enrolling in our training program, will b
       1.Live project on CAD modelling\n            
       2.Marketing and Business development\n            
       3.Sales and Revenue\n            
-      After successful completion of internship period,internship certificates(for all) and LOR's\n(to deserving candidates) will be given.\n Stipend will be purely performance based.\n
+      After successful completion of internship period,internship certificates(for all) and LOR's\n(to deserving candidates) will be given.\n
 `
 const newText = text.split('\n').map(str => <p>{str}</p>);
 

@@ -1,51 +1,52 @@
 export const Data1 = [
     {
-        answer: "Introduction to SolidWorks"
+        answer: "Introduction to SOLIDWORKS"
     },
     {
-        answer: "Sketching basics,tools and entities"
+        answer: "Sketching Basics,Tools and Entities"
     },
     {
-        answer: "Features:Basic features,sweeps,fillets"
+        answer: "Features:Basic Features,Sweeps,Fillets"
     },
     {
-        answer: "Part Modelling Basics,reference gemometeries"
+        answer: "Part Modelling Basics,Reference Geometries"
     },
     {
-        answer: "Multibody modelling"
+        answer: "Multibody Modelling"
     },
     {
-        answer: "Solidworks Drawings and Basic Assembly Modelling"
+        answer: "SOLIDWORKS Drawings and Basic Assembly Modelling"
     },
     {
-        answer: "Handling Large assemblies"
+        answer: "Handling Large Assemblies"
     },
     {
-        answer: "Assembly tools,drawings and mates"
+        answer: "Assembly Tools, Drawings and Mates"
     },
     {
-        answer: "Surface design"
+        answer: "Surface Design"
     }, {
-        answer: "Routing: piping and tubing"
+        answer: "Routing: Piping and Tubing"
     },
     {
-        answer: "SW electrical"
+        answer: "SOLIDWORKS Electrical"
     }, {
-        answer: "Solidworks Motion,Animation"
+        answer: "Solidworks Motion, Animation"
     },
     {
-        answer: "Simulation,Flow Simulation"
+        answer: "Fatigue Analysis, Flow Simulation"
     }, {
         answer: "CSWA Exam Prep"
     }
 ]
+
 
 export const Data2 = [
     {
         answer: "Introduction to Catia"
     },
     {
-        answer: "Part Design and sketch based features"
+        answer: "Part Design And Sketch Based Features"
     },
     {
         answer: "Creating Pads,Pocket Shafts and Ribs"
@@ -57,7 +58,7 @@ export const Data2 = [
         answer: "Pattern Making"
     },
     {
-        answer: "Assembly design,Manipulation and Constraints"
+        answer: "Assembly Design,Manipulation and Constraints"
     },
     {
         answer: "Weld and Sheet Metal Design"
@@ -66,16 +67,15 @@ export const Data2 = [
         answer: "Wireframe and Surface Design"
     },
     {
-        answer: "Drafting and 2d layout for 3D design"
+        answer: "Drafting and 2d layout for 3D Design"
     },
     {
-        answer: "Real time rendering"
+        answer: "Real Time Rendering"
     }, {
-        answer: "Analysis & Advanced  Meshing Tools"
+        answer: "Analysis & Advanced Meshing Tools"
     }, {
         answer: "Designing Contest Preparation"
     }, {
         answer: "Projects Portfolio Guidance"
     }
 ]
-
