@@ -51,3 +51,28 @@ export const homeObjThree = {
   primary: false,
   darkText: true
 };
+const text = `All students who will be enrolling in our training program, will be given a chance to opt for a 10 day internship program in one of the following domains of their choice:\n
+      1.Live project on CAD modelling\n            
+      2.Marketing and Business development\n            
+      3.Sales and Revenue\n            
+      After successful completion of internship period,internship certificates(for all) and LOR's\n(to deserving candidates) will be given.\n Stipend will be purely performance based.\n
+`
+const newText = text.split('\n').map(str => <p>{str}</p>);
+
+export const homeObjFour = {
+  id: 'intern',
+  lightBg: false,
+  lightText: true,
+  lighttextDesc: true,
+  topLine: 'Internships',
+  headline: 'Start your career with us',
+  description: newText,
+  buttonLabel: 'Register Now to apply',
+  href: 'https://rzp.io/l/conceptlab',
+  imgStart: true,
+  img: require('../../images/svg-4.svg').default,
+  alt: 'payment',
+  dark: true,
+  primary: true,
+  darkText: false
+};

@@ -16,7 +16,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>About us</FooterLinkTitle>
               <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink id='intern'>Careers</FooterLink>
               <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -40,7 +40,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               Concept Lab
             </SocialLogo>
-            <WebsiteRights>Concept Labs © 2019 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Concept Lab © 2019 All rights reserved.</WebsiteRights>
             {/* <SocialIcons>
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />

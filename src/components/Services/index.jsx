@@ -22,7 +22,7 @@ const Services = () => {
                                         Certified Solidworks Associate Exam
                                         attempt that otherwise worth Rs.9427/- each.
                                     </li>
-                                    <li>Students clearing CSWA, will get internship opportunity with fixed stipend</li>
+                                    <li>Students clearing CSWA, will get listed in Dassault Systemes directory as SolidWorks professionals(accepted across all industries)</li>
                                     <li>
                                         Get access to complete SW package including SW visualize,SW composer,SW electrical,
                                         E-drawings at minimal additional cost.
