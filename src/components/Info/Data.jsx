@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightText: true,
   lighttextDesc: true,
   topLine: 'Live Courses',
-  headline: 'Attend our courses at the minimal price',
+  headline: 'Attend our courses at minimal price',
   description:
     '20 day online live workshop with certified professionals \nRegular optional quizzes,lecture notes  and study material to solidify your concepts and understanding.    \n Lifetime access to CAD models and softwares.',
   buttonLabel: 'Register Now',
