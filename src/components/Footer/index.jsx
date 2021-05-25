@@ -21,7 +21,6 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>+91 78370 09411 </FooterLink>
               <FooterLink to='/'>+91 77079 41187</FooterLink>
               <FooterLink to='/'>operations@conceptlab.co.in </FooterLink>
             </FooterLinkItems>
